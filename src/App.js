@@ -11,7 +11,6 @@ function App() {
       {["Khra Mitha","Ckae","Browine","Lado",5,6].map((item,index) => <Cards key={index} title={item}  />)}
       </div>
       <Footer />
-      asd
     </div>
   );
 }
