@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b2430;
+    padding: 20px 50px;
+    
+}
+
+#head li {
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+}
+
+#head li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#head li a:hover{
+    color: #17cf97;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover{
+    color: #17cf97;
+}
+
+
